@@ -27,26 +27,41 @@ p{
 Link{
   color: red;
 }
-/* Contact Page Stylesheets */
-.Contact{
+.Bruh{
   display: flex;
-  margin: 0
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3%;
 }
+/* Contact Page Stylesheets */
+/* MUI STYLING IS IN SHEET */
+  .contact{
+    display: flex;
+    margin: 0%;
+  }
+ /* Left */
+
 .Left{
   display: flex; 
   height: 100vh; 
   width: 50vw; 
   flex-direction: column;
-   outline: 2px solid red; 
-   justify-content: space-between;
+  justify-content: space-between;
 }
-.LogoContactPage{
-  align-self: start;
-  margin-left: 5vw;
-  margin-top: 5vh;
+ 
+.logoAndHome{
+  display: flex;
+  justify-content: space-between;
 }
-.homelinkMobileView{
-  display: none;
+.mainText{
+  font-size: 17.5px;
+  width: 40vw ;
+  height: 30vh;
+  overflow: scroll;
+  
+}
+.headingOne{
+  font-size: 4rem ;
 }
 .headingOneAndMainText{
   display: flex;
@@ -55,31 +70,19 @@ Link{
   color: white;
   margin-left: 5vw;
 }
-.headingOne{
-  font-size: 4rem ;
+.underline{
+  text-decoration: underline;
+  text-decoration-color: #DEBF79;
+  text-underline-offset: 20px;
+  text-decoration-thickness: 4px;
+}
+.LogoContactPage{
+  align-self: start;
+  margin-left: 5vw;
+  margin-top: 5vh;
 }
 
-.Bruh{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 3%;
-}
-.mainText{
-  outline: 2px solid red;
-  font-size: 17.5px;
-  width: 40vw ;
-  height: 30vh;
-  overflow: scroll;
-  
-} 
-.homelinkMobileView{
-  display: none;
-}
-.headingOne{
-  font-size: 4rem ;
-}
-
+/* Right */
 .Right{
   display: flex; 
   height: 100vh; 
@@ -89,23 +92,37 @@ Link{
   justify-content: space-between;
 
 }
-
-
-.logoAndHome{
-  display: flex;
-  justify-content: space-between;
+.homelinkMobileView{
+  display: none;
 }
 .headingTwo{
   font-size: 2rem ;
 }
-p{
-  color: white,
-
-
+.mainForm{
+  display: flex;
+  justify-content: center;
 }
-Link{
-  color: red;
+.firstAndLast{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1vw;
 }
+.titleAndEmail{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1vw;
+}
+.message{
+  display: flex;
+  margin-bottom: 1vh;
+}
+.buttonContainer{
+  display: flex;
+  justify-content: center;
+}
+
+/* MEDIA QUERIES*/
+
 @media only screen and (max-width: 1000px){
   /* Home Page StyleSheets */
   .MainBody{
@@ -132,7 +149,7 @@ Link{
     color: red;
   }
   /* Contact Page */
-  .Contact{
+  .contact{
     display: flex;
     flex-direction: column;
   }
@@ -165,10 +182,7 @@ Link{
     flex-direction: column;
     width: 90vw;
   }
-  .Message{
-    display: flex;
-    height: 50vh;
-  }
+
   .headingOne{
     font-size: 12vw;
     margin-left: 2vw;
