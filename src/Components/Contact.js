@@ -3,8 +3,6 @@ import logo from "../imgs/Logo.png"
 import {Button} from "@mui/material"
 import {TextField} from "@mui/material"
 
-const url = "https://api.mwi.dev/content/contact"
-
 
 
   

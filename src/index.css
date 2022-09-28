@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+  /* MUI STYLESHEETS ARE IN COMPONENT  */
+
   /* Home Page StyleSheets */
+  /* Global Stylesheets Start */
 body {
   margin: 0;
   font-family:'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -19,27 +22,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-p{
-  color: white,
 
 
+span{
+  text-decoration: underline;
+  text-decoration-color: #DEBF79;
+  text-underline-offset: 20px;
+  text-decoration-thickness: 4px;
 }
-Link{
-  color: red;
-}
-.Bruh{
+/* Global Stylesheets end */
+.header{
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 3%;
 }
-/* Contact Page Stylesheets */
-/* MUI STYLING IS IN SHEET */
+.headingOneHome{
+  color: white;
+  font-size: 60px;
+}
+.mainBody{
+  display: flex;
+  gap: 2%;
+}
+.paragraphUnderHeadingOneHome{
+  font-size: 17.5px;
+  color: white;
+}
+/* Home Page Stylesheets end */
+
+/* Contact Page Stylesheets start */
   .contact{
     display: flex;
     margin: 0%;
   }
- /* Left */
+ /* Left stylesheets start*/
 
 .Left{
   display: flex; 
@@ -70,19 +87,14 @@ Link{
   color: white;
   margin-left: 5vw;
 }
-.underline{
-  text-decoration: underline;
-  text-decoration-color: #DEBF79;
-  text-underline-offset: 20px;
-  text-decoration-thickness: 4px;
-}
+
 .LogoContactPage{
   align-self: start;
   margin-left: 5vw;
   margin-top: 5vh;
 }
-
-/* Right */
+/* Left stylesheets end */
+/* Right stylesheets start */
 .Right{
   display: flex; 
   height: 100vh; 
@@ -120,12 +132,17 @@ Link{
   display: flex;
   justify-content: center;
 }
+/* Right stylesheets end */
 
 /* MEDIA QUERIES*/
 
 @media only screen and (max-width: 1000px){
-  /* Home Page StyleSheets */
-  .MainBody{
+  /* Home Page mediaqueries Start */
+  .logoHomePage{
+    width: 60vw;
+    height: 100%;
+  }
+  .mainBody{
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -148,7 +165,8 @@ Link{
   .pInsideHeadings{
     color: red;
   }
-  /* Contact Page */
+  /* Home Page media queries end */
+  /* Contact Page media queries start */
   .contact{
     display: flex;
     flex-direction: column;
@@ -204,6 +222,8 @@ Link{
   .mainText{
     width: 90vw;
   }
+    /* Contact Page media queries end */
+
 }
 
 
