@@ -2,12 +2,15 @@ import { Link } from "@mui/material"
 import logo from "../imgs/Logo.png"
 import {Button} from "@mui/material"
 import {TextField} from "@mui/material"
+import { useNavigate } from "react-router-dom"
+
 
 
 
   
 
 function Contact() {
+  const navigate = useNavigate()
 
 
   return (
@@ -27,7 +30,9 @@ function Contact() {
           <div className="logoAndHome">
           <img src = {logo} alt = "Midwestern Interative" className="LogoContactPage"></img>
             
-          <Link className="homelinkMobileView" style= {{fontSize: 20, color: "#DEBF79", alignSelf: "end", marginTop:"5vh", marginRight: "5vw"}} underline="none">home</Link>
+          <Link onClick ={()=>{
+            navigate("/")
+          }}className="homelinkMobileView" style= {{fontSize: 20, color: "#DEBF79", alignSelf: "end", marginTop:"5vh", marginRight: "5vw"}} underline="none">home</Link>
            
           </div>
             
@@ -40,7 +45,9 @@ function Contact() {
         </div>
       
       <div className="Right">
-        <Link className = "homelinkDesktopView"style= {{fontSize: 20, color: "#DEBF79", alignSelf: "end", marginTop:"5vh", marginRight: "5vw"}} underline="none">home</Link>
+        <Link onClick = {()=>{
+          navigate("/")
+        }}className = "homelinkDesktopView"style= {{fontSize: 20, color: "#DEBF79", alignSelf: "end", marginTop:"8.5vh", marginRight: "4.5vw"}} underline="none">home</Link>
         <div className="mainForm">
           <form action="" method="post">
         
