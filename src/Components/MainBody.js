@@ -18,12 +18,10 @@ const MainBody = () => {
   if(textInsideHeadings){
     console.log(textInsideHeadings)
     return(
-    
       <div className ="mainBody">
       <Headings pText={textInsideHeadings.data[0].content} h1Text ={textInsideHeadings.data[0].title}image = {Talkie}/>
       <Headings pText={textInsideHeadings.data[1].content} h1Text ={textInsideHeadings.data[1].title}image = {Rabbit}/>
       <Headings pText={textInsideHeadings.data[2].content} h1Text ={textInsideHeadings.data[2].title}image = {Shield}/>
-
 
     </div>
     )
@@ -31,13 +29,12 @@ const MainBody = () => {
 }
 else{
   return(
-    <div className ="mainBody">
-    <Headings text ={"Failed to load"}image = {Talkie}/>
-    <Headings text = {"Failed to load"}image = {Rabbit}/>
-    <Headings text = {"Failed to load"}image = {Shield}/>
+<div className ="mainBody">
+  <Headings pText={""} h1Text ={""}image = {Talkie}/>
+  <Headings pText={""} h1Text ={""}image = {Rabbit}/>
+  <Headings pText={""} h1Text ={""}image = {Shield}/>
 
-
-  </div>
+</div>
   )
 
 }
