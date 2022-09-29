@@ -49,6 +49,24 @@ span{
   font-size: 17.5px;
   color: white;
 }
+/* Headings stylesheets start */
+.h1InsideHeadings{
+  font-size: 3vw; 
+  margin-bottom: 0;
+}
+.pInsideHeadings{
+  color: #858585;
+  font-size: 1.3vw;
+  width: 75%;
+  line-height: 20px;
+  text-align: left;
+  word-spacing: .5vw;
+
+  border-radius: 0;
+
+}
+
+
 /* Home Page Stylesheets end */
 
 /* Contact Page Stylesheets start */
@@ -163,7 +181,21 @@ span{
     height: auto;
   }
   .pInsideHeadings{
-    color: red;
+    font-size: 5vw;
+    line-height: 5vw;
+  }
+  .h1InsideHeadings{
+    font-size: 10vw;
+   
+  }
+  .paragraphUnderHeadingOneHome{
+    font-size: 5vw;
+  }
+  .imgInsideHeadings{
+    height: 13vh;
+  
+    object-fit: cover;
+
   }
   /* Home Page media queries end */
   /* Contact Page media queries start */
@@ -201,7 +233,7 @@ span{
     width: 90vw;
   }
 
-  .headingOne{
+  .headingOneHome{
     font-size: 12vw;
     margin-left: 2vw;
   }
@@ -225,5 +257,16 @@ span{
     /* Contact Page media queries end */
 
 }
+@media only screen and (max-width: 355px){  
+  .imgInsideHeadings{
+    height: 10vw;
+  }
+  .pInsideHeadings{
+    font-size: 3vw;
+    line-height: 3vw;
+    outline: 2px solid red;
+    word-spacing: 0;
 
-
+  }
+  
+}  
