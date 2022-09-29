@@ -2,6 +2,7 @@ import { Box } from "@mui/system"
 
 
 import { Button} from "@mui/material"
+import { Height, WidthFull } from "@mui/icons-material"
 
 function Headings(props) {
   
@@ -15,13 +16,15 @@ function Headings(props) {
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
-        margin: "none"
+        margin: "none",
+ 
+        
         
     }}>
     <img className = "imgInsideHeadings" src = {props.image}></img>
       
-        <h1 className = "h1InsideHeadings" >Heading Two</h1>
-        <p className = "pInsideHeadings">Intenger accumsan molestie nisl, id faucibus urna accumsan quis. Proin vulputate, mauris semper maximus</p>
+        <h1 className = "h1InsideHeadings" >{props.h1Text}</h1>
+        <p className = "pInsideHeadings">{props.pText}</p>
       
        
     <Button size="large" variant="containted" color = "neutral" style = {{ textTransform: "none", backgroundColor:"#DEBF79", color: "white", borderRadius: 0}}>Learn More</Button>
