@@ -1,3 +1,9 @@
+Here is the build of the Midwestern Interactive Tech Challenge That I took part of. 
+Thank you!
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
