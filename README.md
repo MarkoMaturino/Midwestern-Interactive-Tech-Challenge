@@ -1,4 +1,4 @@
-Here is the build of the Midwestern Interactive Tech Challenge That I took part of. 
+Here is the build of the Midwestern Interactive Tech Challenge That I took part in. 
 Thank you!
 
 
