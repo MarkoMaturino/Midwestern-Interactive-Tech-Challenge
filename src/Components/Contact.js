@@ -10,7 +10,8 @@ import { alpha, styled } from '@mui/material/styles';
 
 // Stylizied TextField for form
 const CssTextField = styled(TextField)({
-  
+ 
+ 
   "& .MuiInputBase-root":{
     color: "#858585",
 
@@ -110,7 +111,7 @@ function Contact() {
             
             <Link onClick ={()=>{
             navigate("/")
-            }}className="homelinkMobileView" style= {{fontSize: 20, color: "#DEBF79", alignSelf: "end", marginTop:"5vh", marginRight: "5vw"}} underline="none">home</Link>
+            }}className="homelinkMobileView" style= {{fontSize: 20, color: "#DEBF79", alignSelf: "end", marginTop:"5vh", marginRight: "5vw", fontWeight: 600}} underline="none">home</Link>
            
           </div>
           
@@ -127,7 +128,7 @@ function Contact() {
       <div className="Right">
         <Link onClick = {()=>{
           navigate("/")
-        }}className = "homelinkDesktopView"style= {{fontSize: 20, color: "#DEBF79", alignSelf: "end", marginTop:"8.5vh", marginRight: "4.5vw"}} underline="none">home</Link>
+        }}className = "homelinkDesktopView"style= {{fontSize: 20, color: "#DEBF79", alignSelf: "end", marginTop:"8.5vh", marginRight: "4.5vw", fontWeight: 600}} underline="none">home</Link>
         <div className="mainForm">
           <form onSubmit={handleSubmit}>
         
@@ -144,7 +145,7 @@ function Contact() {
             </div>
             
             <div className="message">
-              <CssTextField  onChange={(e)=> setMessage(e.target.value)}id="message" label="Message" multiline minRows={4}  fullWidth style = {{backgroundColor: "#F5F5F5"}}/>
+              <CssTextField  onChange={(e)=> setMessage(e.target.value)}id="message" label="Message" multiline minRows={5}  fullWidth style = {{backgroundColor: "#F5F5F5"}}/>
             
             </div>
             

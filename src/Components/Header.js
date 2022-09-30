@@ -12,7 +12,7 @@ function Header(){
             <img src = {logo} alt = "Midwestern Interative" className="logoHomePage"></img>
             <Link onClick ={()=>{
               navigate("/contact")
-            }}style= {{fontSize: 20, color: "#DEBF79"}} underline="none">contact</Link>
+            }}style= {{fontSize: 20, color: "#DEBF79", fontWeight: 600}} underline="none">contact</Link>
 
         </div>   
     </div>

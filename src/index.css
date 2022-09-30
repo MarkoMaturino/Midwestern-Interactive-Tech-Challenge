@@ -54,6 +54,7 @@ span{
 .h1InsideHeadings{
   font-size: 3vw; 
   margin-bottom: 0;
+  
 }
 .pInsideHeadings{
   color: #858585;
@@ -61,8 +62,8 @@ span{
   width: 75%;
   line-height: 20px;
   text-align: left;
-  word-spacing: .5vw;
-
+  word-spacing: .5vw; 
+  font-weight: 350;
   border-radius: 0;
 
 }
@@ -129,18 +130,21 @@ span{
 .headingTwo{
   font-size: 2rem ;
 }
+.MuiInputBase-input{
+  width: 80vw;
+}
 .mainForm{
   display: flex;
   justify-content: center;
 }
 .firstAndLast{
   display: flex;
-  gap: 10px;
+  gap: 20px;
   margin-bottom: 1vw;
 }
 .titleAndEmail{
   display: flex;
-  gap: 10px;
+  gap: 20px;
   margin-bottom: 1vw;
 }
 .message{
@@ -228,16 +232,18 @@ span{
     font-size: 10vw;
   }
 
- 
+  
   .firstAndLast{
     display: flex;
     flex-direction: column;
     width: 90vw;
+    margin-bottom: 3vh;
   }
   .titleAndEmail{
     display: flex;
     flex-direction: column;
     width: 90vw;
+    margin-bottom: 3vh;
   }
 
   .headingOneHome{
@@ -249,7 +255,7 @@ span{
   }
 
   .homelinkMobileView{
-   
+    
     display: inline;
   }
   .homelinkDesktopView{
