@@ -31,6 +31,8 @@ span{
   text-decoration-thickness: 4px;
 }
 /* Global Stylesheets end */
+
+/* Home Page stylesheets start */
 .header{
   display: flex;
   justify-content: space-between;
@@ -50,7 +52,7 @@ span{
   font-size: 17.5px;
   color: white;
 }
-/* Headings stylesheets start */
+
 .h1InsideHeadings{
   font-size: 3vw; 
   margin-bottom: 0;
@@ -157,6 +159,8 @@ span{
 }
 /* Right stylesheets end */
 
+/* Contact Page Stylesheets end */
+
 /* MEDIA QUERIES*/
 
 @media only screen and (max-width: 1000px){
@@ -174,7 +178,7 @@ span{
     flex-direction: column;
 
   }
-  /* class="Box MuiBox-root css-1dj3h6a" */
+  /* MUI BOX */
   .Box.MuiBox-root{
     margin-top: 1vh;
     width: 90vw;
