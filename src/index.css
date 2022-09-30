@@ -12,10 +12,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color:  #222222;
 
-  margin-left: 3vw;
-  margin-right: 3vw;
-  margin-top: 3vw;
-  margin-bottom: 3vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 } 
 
 code {
@@ -39,7 +39,8 @@ span{
 }
 .headingOneHome{
   color: white;
-  font-size: 60px;
+  font-size: 3rem;
+  margin-top: 8vh;
 }
 .mainBody{
   display: flex;
@@ -108,8 +109,8 @@ span{
 
 .LogoContactPage{
   align-self: start;
-  margin-left: 3vw;
-  margin-top: 5.8vh;
+  margin-left: 5vw;
+  margin-top: 5vh;
 }
 /* Left stylesheets end */
 /* Right stylesheets start */
@@ -156,30 +157,33 @@ span{
 
 @media only screen and (max-width: 1000px){
   /* Home Page mediaqueries Start */
+  .header{
+    margin-top: 5.8vh;
+  }
   .logoHomePage{
-    width: 60vw;
-    height: 100%;
+    
+    width: 50vw; 
+    height: auto;
   }
   .mainBody{
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    
 
   }
-  .Box.MuiBox-root.css-1bj60pa{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 95vw;
+  /* class="Box MuiBox-root css-1dj3h6a" */
+  .Box.MuiBox-root{
+    margin-top: 1vh;
+    width: 90vw;
     height: calc(100vw * (1/1));
 
 
   }
   .LogoContactPage{
-    display: block;
-    width: 50%; 
+    margin-top: 5.8vh;
+    width: 50vw; 
     height: auto;
   }
+  
   .pInsideHeadings{
     font-size: 5vw;
     line-height: 5vw;
@@ -220,6 +224,9 @@ span{
     
    
   }
+  .headingOne{
+    font-size: 10vw;
+  }
 
  
   .firstAndLast{
@@ -242,19 +249,20 @@ span{
   }
 
   .homelinkMobileView{
+   
     display: inline;
   }
   .homelinkDesktopView{
     display: none;
   }
   .headingTwo{
-    margin-bottom: 20vw;
+    margin-bottom: 10vw;
     font-size: 10vw;
   }
   .mainText{
     width: 90vw;
   }
-    /* Contact Page media queries end */
+/* Contact Page media queries end */
 
 }
 @media only screen and (max-width: 355px){  
@@ -262,9 +270,27 @@ span{
     height: 10vw;
   }
   .pInsideHeadings{
-    font-size: 3vw;
-    line-height: 3vw;
-    outline: 2px solid red;
+    font-size: 5vw;
+    line-height: 5vw;
+  
+    word-spacing: 0;
+
+  }
+  
+}  
+@media only screen and (max-width: 1279px) and (min-width: 1000px){  
+
+  .Box.MuiBox-root{
+    width: 30vw;
+    height: calc(30vw * (1/1));
+  }
+  .imgInsideHeadings{
+    height: 4vw;
+  }
+  .pInsideHeadings{
+    font-size: 1.5vw;
+    line-height: 2vw;
+  
     word-spacing: 0;
 
   }

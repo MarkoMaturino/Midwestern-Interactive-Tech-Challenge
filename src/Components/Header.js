@@ -4,7 +4,7 @@ import "../index.css"
 import { useNavigate } from "react-router-dom"
 
 
-const Header = () => {
+function Header(){
   const navigate = useNavigate()
   return (
     <div>
@@ -21,13 +21,4 @@ const Header = () => {
 }
 
 export default Header
-{/* <Router>
 
-<Routes>
-  <Route path='/' element={<Home/>}></Route>
-</Routes>
-
-
-
-</Router> */}
-// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
