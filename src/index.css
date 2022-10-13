@@ -209,6 +209,10 @@ span{
     object-fit: cover;
 
   }
+  li{
+    font-size: 5vw;
+  }
+ 
   /* Home Page media queries end */
   /* Contact Page media queries start */
   .contact{
