@@ -7,11 +7,12 @@ import ErrorPage from './Components/ErrorPage';
 
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom';
 
 function App() {
 
   return (
-    <Router>
+    <HashRouter>
       
       <Routes>
         <Route path='/' element={<Home/>}></Route>
@@ -21,7 +22,7 @@ function App() {
   
      
 
-    </Router>
+    </HashRouter>
   );  
 }
 
