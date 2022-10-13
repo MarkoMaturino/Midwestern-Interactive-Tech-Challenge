@@ -117,7 +117,7 @@ function Contact() {
           
           <div className = "headingOneAndMainText">
               
-              <h1 className = "headingOne"><span class="underline">{data.data[0].title}</span> One</h1>
+              <h1 className = "headingOne"><span className="underline">{data.data[0].title}</span> One</h1>
               <p className = "mainText">{data.data[0].content}</p>
   
           </div>
@@ -189,7 +189,7 @@ else{
           </div>
             
           <div className = "headingOneAndMainText">
-              <h1 className = "headingOne"><span class="underline"></span></h1>
+              <h1 className = "headingOne"><span className="underline"></span></h1>
               <p className = "mainText"></p>
   
           </div>
