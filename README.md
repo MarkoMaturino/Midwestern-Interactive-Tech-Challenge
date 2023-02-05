@@ -1,6 +1,6 @@
 Here is the build of the Midwestern Interactive Tech Challenge That I took part in. 
 Thank you!
-https://hybridmarko720.github.io/Midwestern-Interactive-Tech-Challenge/#/
+https://markomaturino.github.io/Midwestern-Interactive-Tech-Challenge/#/
 
 
 
